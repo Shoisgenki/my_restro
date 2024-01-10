@@ -5,77 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delicious Bites - Restaurant</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-        }
-
-        header {
-            background-image: url('restaurant-header.jpg');
-            background-size: cover;
-            color: #fff;
-            padding: 40px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #333;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 20px;
-            font-size: 18px;
-            font-weight: bold;
-        }
-
-        section {
-            padding: 40px;
-            text-align: center;
-        }
-
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #e8491d;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-        }
-
-        #changeTextButton {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-        }
-
-        .menu {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .menuItem {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .menuItem img {
-            max-width: 100%;
-            border-radius: 5px;
-            margin-bottom: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -93,28 +23,12 @@
 
     <section>
         <h2>Our Specialties</h2>
-        <div class="menu">
-            <div class="menuItem">
-                <img src="dish1.jpg" alt="Dish 1">
-                <h3>Signature Dish 1</h3>
-                <p>Delicious description of the dish goes here.</p>
-                <button>Order Now</button>
-            </div>
-            <div class="menuItem">
-                <img src="dish2.jpg" alt="Dish 2">
-                <h3>Signature Dish 2</h3>
-                <p>Delicious description of the dish goes here.</p>
-                <button>Order Now</button>
-            </div>
-            <div class="menuItem">
-                <img src="dish3.jpg" alt="Dish 3">
-                <h3>Signature Dish 3</h3>
-                <p>Delicious description of the dish goes here.</p>
-                <button>Order Now</button>
-            </div>
+        <div class="menu" id="menu">
+            <!-- Menu items will be dynamically added here with JavaScript -->
         </div>
     </section>
 
+    <script src="script.js"></script>
 </body>
 
 </html>

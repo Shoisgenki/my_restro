@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const menu = document.getElementById('menu');
 
     const dishes = [
-        { image: 'dish1.jpg', name: 'Signature Dish 1', description: 'Delicious description of the dish goes here.' },
-        { image: 'dish2.jpg', name: 'Signature Dish 2', description: 'Delicious description of the dish goes here.' },
-        { image: 'dish3.jpg', name: 'Signature Dish 3', description: 'Delicious description of the dish goes here.' },
+        { image: '1.jpg', name: 'Signature Dish 1', description: 'Delicious description of the dish goes here.' },
+        { image: '2.jpg', name: 'Signature Dish 2', description: 'Delicious description of the dish goes here.' },
+        { image: '3.jpg', name: 'Signature Dish 3', description: 'Delicious description of the dish goes here.' },
     ];
 
     dishes.forEach(dish => {
